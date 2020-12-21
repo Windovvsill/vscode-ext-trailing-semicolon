@@ -35,11 +35,13 @@
         "title": "Trailing Semicolon"
       }
     ],
-    "keybindings": [{
-      "key": "cmd+;",
-      "when": "editorTextFocus",
-      "command": "extension.trailing-semicolon"
-    }]
+    "keybindings": [
+      {
+        "key": "cmd+;",
+        "when": "editorTextFocus",
+        "command": "extension.trailing-semicolon"
+      }
+    ]
   },
   "devDependencies": {
     "vscode": "0.10.x",
